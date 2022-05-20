@@ -1,0 +1,69 @@
+header{
+    font-size: 35px;
+    text-align: center; 
+    font-weight: bold;
+    margin: 0%;
+    padding: 10px;
+    background-color: darkviolet;
+}
+h1{
+    text-align: center;
+    background-color: darkred;
+    padding: 10px;
+    margin: 0%;
+}
+h1.unidades{
+    text-align: left;
+    background-color: cornsilk;
+    padding: 10px;
+    margin: 0%;
+}
+h2{
+    background-color: cyan;
+    padding: 10px;
+    margin: 0%;
+    text-align: center;
+}
+h2.java{
+    background-color: darkred;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    background-color: darkviolet;
+    padding: 10px;
+    margin: 0%;
+}
+body{
+    background-image: url(../img/fondo.jpg) 
+}
+div.unidades{
+    width: 49%;
+    display: inline-block;
+}
+div.foto{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+img{
+    border-radius: 8px;
+}
+hr{
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    margin: 0%;
+}
+div.ac{
+    width: 100%;
+    background-color: deepskyblue;
+    text-align: center;
+}
+a.footer{
+    color: black;
+}
+

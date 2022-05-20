@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Pagina de Andrés Cantillo</title>
+<link rel="alternate" type="text/xml" href="atom.atom"/>
+<id>https://andres-cantillo.github.io//</id>
+
+<entry>
+    <title>Página de Andrés Cantillo</title>
+    <link href="./paglm/unidad7/ej1.xml"/>
+    <id>https://andres-cantillo.github.io/index.html</id>
+    <author>
+    <name>Andrés Cantillo</name>
+    <email>a21cajian1@iesgrancapitan.org</email>
+    </author>
+    <summary>Página principal repositorio Andrés Cantillo Jiménez</summary>
+</entry>
+<entry>
+    <title>Cordoba Patrimonio</title>
+    <link href="./paglm/unidad7/ej2.xml"/>
+    <id>https://andres-cantillo.github.io/Unidades/Cordoba/index.html</id>
+    <author>
+        <name>Andrés Cantillo</name>
+        <email>a21cajian1@iesgrancapitan.org</email>
+        </author>
+        <summary>Página turistica con información sobre Córdoba</summary>
+</entry>
+<entry>
+    <title>Recetas de la abuela</title>
+    <link href="./paglm/unidad7/ej3.xml"/>
+    <id>https://andres-cantillo.github.io/Unidades/LasRecetasChusteras/index.html</id>
+    <author>
+    <name>Andrés Cantillo</name>
+    <email>a21cajian1@iesgrancapitan.org</email>
+    </author>
+    <summary>Página de recetas caseras de nuestros chefs</summary>
+</entry>
+</feed>

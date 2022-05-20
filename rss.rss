@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Página de Andrés Cantillo</title>
+<link>https://andres-cantillo.github.io/index.html</link>
+<description>Página principal repositorio Andrés Cantillo Jiménez</description>
+<item>
+    <title>Cordoba Patrimonio</title>
+    <link>https://andres-cantillo.github.io/Unidades/Cordoba/index.html</link>
+    <description>Página turistica con información sobre Córdoba</description> 
+</item>
+<item>
+    <title>Recetas de la abuela</title>
+    <link>https://andres-cantillo.github.io/Unidades/LasRecetasChusteras/index.html</link>
+    <description>Página de recetas caseras de nuestros chefs</description> 
+</item>
+</channel>
+</rss>
