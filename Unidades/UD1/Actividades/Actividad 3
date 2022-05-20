@@ -1,0 +1,35 @@
+//Cuestión: 1 nombre: Elección multible
+Cual fue el primer metalenguaje: {
+GML#Respuesta incorrecta
+SGML#Respuesta correcta
+HTML#Respuesta incorrecta
+XML#Respuesta incorrecta
+}
+//Cuestión: 2 nombre: Elección multible
+Que es W3C: {
+Consorcio#Respuesta correcta
+Lenguaje#Respuesta incorrecta
+Metalenguaje#Respuesta incorrecta
+Estándar#Respuesta incorrecta
+}
+//Cuestión: 3 nombre: Elección multible
+Cual es la estructura de XML {
+Prólogo-Cuerpo#Respuesta correcta
+Introducción-Nudo-Desenlace#Respuesta incorrecta
+Prólogo-Espacio de nombres-Cuerpo#Respuesta incorrecta
+Cuerpo-Final#Respuesta incorrecta
+}
+//Cuestión: 4 nombre: Elección multible 
+Para que un documento XML este bien formado tiene cumplir: {
+Elementos correctamente anidados#Respuesta incorrecta
+Comentarios entre <!-- -->#Respuesta incorrecta
+Atributos entrecomillados#Respuesta incorrecta
+Todas son correctas#Respuesta correcta
+}
+//Cuestión: 5 nombre: Elección multible
+Porque está formado un elemento: {
+Etiqueta Inicio; Contenido; Etiqueta Final#Respuesta correcta
+Apertura-Cierre#Respuesta incorrecta
+Contenido#Respuesta incorrecta
+Ninguna es correcta#Respuesta incorrecta
+}

@@ -1,0 +1,65 @@
+#lista1 {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:13px;
+    margin: 0px;
+    display: flex;
+    text-align: center;
+}
+.separador {
+    color:gray;
+}
+#lista1 li {
+     display:inline;
+     padding: 10px;
+    background-color:black;
+    width: 14%;
+    text-align: center;
+}
+a {
+    color:white;
+    text-decoration:none;
+}
+a:hover {
+    color:black;
+    background-color:lightgray;
+}
+body{
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+h1.title{
+    text-align: center;
+}
+main{
+    width: 90%;
+    margin-left: 5%;
+    background-color: gray;
+    padding: 15px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+section.contacto{
+    width: 100%;
+    text-align: center;
+}
+footer{
+    margin: 0%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: gray;
+    padding: 15px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}

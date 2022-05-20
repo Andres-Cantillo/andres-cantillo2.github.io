@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+
+\title{Carta de presentación}
+\author{Andrés Cantillo Jiménez}
+\date{September 2021}
+
+\begin{document}
+\maketitle
+
+Buenas, me llamo Andrés, tengo 19 años y esta es mi carta de presentación.
+
+
+\begin{itemize}
+  \item Nombre: Andrés 
+  \item Apellidos: Cantillo Jiménez
+  \item Localidad de la que provengo: Montilla/Córdoba
+  \item Estudios: Grado Medio Sistemas microinformáticos y redes
+  \item Estudios realizados en: IES Inca Garcilaso
+  \item Fecha de Nacimiento: 15/09/2002
+  \item Deportes que realizo/he realizado: Correr, Andar, MTB, BMX.
+  \item Carnet de conducción: B y A2
+   
+   \hspace*{20cm}
+   
+   
+  Soy de Montilla un pueblo de Córdoba, estoy en ASIR después de hacer SMR, por las mañanas estudio y por las tardes trabajo de profesor de robotica en mi pueblo, por tal motivo vengo y voy todos los días.
+  
+        \hspace*{13em}
+        \includegraphics[scale=0.25]{https://st.depositphotos.com/2069323/2156/i/600/depositphotos_21568765-stock-photo-casual-businessman-pointing.jpg}
+    
+\end{itemize}
+
+
+
+\end{document}
+
