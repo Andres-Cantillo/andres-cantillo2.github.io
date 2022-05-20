@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UD3</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Actividades propuestas Formularios</h1>
+        <h2>1. Crea un documento HTML que genere la salida de la imagen.</h2>
+            <form>
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <input type="submit" value="Enviar">
+            </form>
+        <h2>2. Crea un documento HTML que genere la salida de la imagen.</h2>
+            <form>
+                <label>Nombre:</label>
+                <input type="text" name="Nombre" value="Jose" maxlength="40">
+                <input type="submit" value="Enviar">
+            </form>
+        <h2>3. Crea un documento HTML que genere la salida de la imagen.</h2>
+            <form>
+                <label>Nombre:</label>
+                <input type="text" name="Nombre" value="Jose" maxlength="40" disabled>
+                <input type="submit" value="Enviar">
+            </form>
+        <h2>4. Crea un documento HTML que genere la salida de la imagen.</h2>
+            <form>
+                <p>Color favorito:</p>
+                <p><input type="radio" name="color" value="Rojo">Rojo</p>
+                <p><input type="radio" name="color" value="Azul" checked>Azul</p>
+                <input type="submit" value="Enviar">
+            </form>
+        <h2>5. Crea un documento HTML que genere la salida de la imagen.</h2>
+            <form>
+                <select name="Marca">
+                    <option>Volvo</option>
+                    <option>Ford</option>
+                    <option>Fiat</option>
+                    <option>Audi</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </form>
+        <h2>6. Crea un documento HTML que genere la salida de la imagen.</h2>
+            <form>
+                <textarea name="textarea"></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        <h2>7. Diseña un formulario con validación para rellenar un currículum. Incluye en el formulario todos los elementos estudiados.</h2>
+            <fieldset>
+            <legend><h3>Curr&iacute;culum</h3></legend>
+            <form>
+                <label>Nombre:</label>
+                <input type="text" name="Nombre" placeholder="Jose" maxlength="40" required>
+                    <br>
+                    <br>
+                <label>Apellidos:</label>
+                <input type="text" name="Apellidos" placeholder="López López" maxlength="80" required>
+                    <br>
+                    <br>
+                <label>Fecha de nacimiento:</label>
+                <input type="date" name="nacimiento" required> 
+                    <br>
+                    <br>
+                <label>¿Tienes carné de conducir?:</label>
+                <input type="radio" required name="carnet" value="si"><label>Sí</label>
+                <input type="radio" required name="carnet" value="no"><label>No</label>
+                    <br>
+                    <br>
+                <label>Correo electr&oacute;nico:</label>
+                <input type="text" required value="ejemplocorreo">
+                <select name="extensioncorreo" required>
+                    <option>@gmail.com</option>
+                    <option>@hotmail.es</option>
+                    <option>@iesgrancapitan.org</option>
+                    <option>@powerlinedesing.com</option>
+                    <option>Otro</option>
+                </select>
+                    <br>
+                    <br>
+                <label>Datos de interes:</label>
+                <textarea name="datosdeinteres"></textarea>
+                    <br>
+                    <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetear">
+            </form>
+        </fieldset>
+</body>
+</html>
