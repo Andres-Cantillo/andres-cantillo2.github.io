@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+.contenedor{
+    display: inline-block;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+}
+form{
+    display: inline-block;
+    margin-left: 60px;
+}
+a.menu{
+    text-decoration: none;
+    color: white;
+    margin-right: 5px ;
+}
+.go{
+    border-radius: 20px;
+    color: orange;
+}
+
+@media (max-width: 400px) {
+    .contenedor{
+        display: block;
+        background-color: red;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    form{
+        display: block;
+        margin-left: 10px;
+    }
+    a.menu{
+        text-decoration: none;
+        color: white;
+        margin-right: 5px ;
+        margin-bottom: 20px;
+    }
+    .go{
+        border-radius: 20px;
+        color: orange;
+    }
+}

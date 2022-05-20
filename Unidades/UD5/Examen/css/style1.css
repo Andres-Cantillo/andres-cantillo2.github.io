@@ -1,0 +1,134 @@
+h1{
+    text-align: center;
+}
+.contenedor1 {
+    display: grid;
+    grid-template-columns: 75% 1fr;
+    padding: 10px;
+  }
+  .box1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    background-color: gray;
+
+  }
+  .box2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    background-color: gray;
+
+  }
+  
+  .contenedor2 {
+    padding: 10px;
+    width: 98%;
+    display: block;
+    height: 500px;
+  }
+
+  .box3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    height: 400px;
+    float: left;
+    background-color: gray;
+
+  }
+  .box4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    height: 250px;
+    width: 85%;
+    float: left;
+    background-color: gray;
+
+  }
+  .box5 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    height: 90px;
+    float: left;
+    background-color: gray;
+    width: 85%;
+  }
+  .block {
+    display: block;
+    padding: 10px;
+    width: 40%;
+  }
+  .box6 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    height: 40px;
+    background-color: gray;
+
+  }
+  .box7 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    height: 120px;
+    background-color: gray;
+
+  }
+  .box8 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    height: 30px;
+    background-color: gray;
+
+  }
+  .box9 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    height: 120px;
+    background-color: gray;
+
+  }
+  .box10 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    height: 20px;
+    background-color: gray;
+
+  }
+

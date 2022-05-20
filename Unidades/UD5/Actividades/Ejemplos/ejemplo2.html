@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background: gray;
+            color: white;
+        }
+        .header{
+            margin: 0px;
+            border: 1px solid black;
+            color: white;
+            background-color: red;
+            width: calc(22);
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .hero{
+            margin: 0px;
+            border: 1px solid black;
+            color: white;
+            background-color: yellow;
+            width: calc(22);
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .content{
+            margin: 0px;
+            border: 1px solid black;
+            color: white;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: auto;
+        }
+        .sidebar{
+            margin: 0px;
+            border: 1px solid black;
+            color: white;
+            background-color: blue;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 320px;
+        }
+        .footer{
+            margin: 0px;
+            border: 1px solid black;
+            color: white;
+            background-color: gray;
+            width: calc(22);
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 640px) {
+            .flex-container{
+                display: inline-block;
+            }
+        }
+        
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        Main
+    <div class="header">
+        <!-- Header -->
+        <header>
+            Header
+        </header>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    </div>
+    <div class="hero">
+        <!-- Hero -->
+        <section>
+            Hero
+        </section>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+<div class="flex-container">
+    <div class="content">
+        <!-- Content -->
+        <section>
+            Content
+        </section>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+    <div class="sidebar">
+        <!-- SideBar -->
+        <aside>
+            SideBar
+        </aside>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+</div>
+    <div class="footer">
+        <!-- Footer -->
+        <footer>
+            Footer
+        </footer>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    </div>
+    </main>
+</body>
+</html>
