@@ -1,0 +1,83 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: cyan;
+    text-decoration: none;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Lato', sans-serif;
+    color: cyan;
+}
+.marcado{
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+hr{
+    margin: 0%;
+    background-color: cyan;
+}
+h1, h2{
+    text-align: center;
+}
+.inicio{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: pajarita;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+ @keyframes pajarita{
+            0%  {left: 0px;}
+            50% {left: 200px;}
+            100%{left: 0px;}
+}
+footer{
+    color: burlywood;
+}
+footer a{
+    color: burlywood;   
+}
+
+.background1{
+    background-image: url(../img/klematis.jpg);
+    background-size: 100% 100%;
+    border: 1px solid black;
+    display: inline-block;
+    color: white;
+    height: 200px;
+    width: 31%;
+    padding-top: 2%;
+    padding-left: 2%;
+    opacity: 0.5;
+}
+
+.background1:hover{
+    opacity: 1;
+    
+}
+
+.background2{
+    height: 200px;
+    width: 31%;
+    padding-top: 2%;
+    padding-left: 2%;
+    background-color: white;
+    display: inline-block;
+}

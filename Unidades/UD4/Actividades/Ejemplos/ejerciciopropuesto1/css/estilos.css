@@ -1,0 +1,11 @@
+p.background{
+    background-color: green;
+}
+p.cuadro{
+    width: 20%;
+    border: 20px;
+    border-style: solid;
+    border-color: red;
+    padding: 20px;
+    margin: 20px;
+}

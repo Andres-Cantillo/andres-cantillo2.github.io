@@ -1,0 +1,13 @@
+img{
+    display: block;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    width: 200PX;
+    animation: myAnimation 2s ease 1s 3 alternate forwards;
+}
+
+@keyframes myAnimation{
+    100%{
+        transform: rotate(360deg);
+    }
+}

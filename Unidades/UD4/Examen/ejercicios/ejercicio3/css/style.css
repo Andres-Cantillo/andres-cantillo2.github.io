@@ -1,0 +1,72 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: cyan;
+    text-decoration: none;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Lato', sans-serif;
+    color: cyan;
+}
+.marcado{
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+hr{
+    margin: 0%;
+    background-color: cyan;
+}
+h1, h2{
+    text-align: center;
+}
+.inicio{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: pajarita;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+ @keyframes pajarita{
+            0%  {left: 0px;}
+            50% {left: 200px;}
+            100%{left: 0px;}
+}
+footer{
+    color: burlywood;
+}
+footer a{
+    color: burlywood;   
+}
+.box{
+    border: 2px solid black;
+    margin: auto;
+    width: 20%;
+    background-color: white;
+    border: 2px solid;
+    color: black;
+}
+
+.text{
+    background-color: yellow;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}

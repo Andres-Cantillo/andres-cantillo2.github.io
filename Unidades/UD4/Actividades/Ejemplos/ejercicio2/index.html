@@ -1,0 +1,53 @@
+<html lang="es">
+    <head>
+        <title>Ejercicio 1</title>
+        <meta charset="UTF-8">
+        <style>
+            p[name] {
+                background: yellow;
+            }
+            p[name="p2"] {
+                background: red;
+            }
+            p[name~="p3"] {
+                background: green;
+            }
+            p[name^="p4"] {
+                background: blue;
+            }
+            p[name$="p5"] {
+                background: pink;
+            }
+            p[name*="p6"] {
+                background: purple  ;
+            }
+
+            a.highlight:hover{
+                color: #ff0000;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Aplicando estilos</h1>
+            </header>
+            <section>
+                <p name>P1</p>
+
+                <p name="p2">P2</p>
+
+                <p name="p3">P3</p>
+
+                <p name="p4">P4</p>
+
+                <p name="p5">P5</p>
+
+                <p name="p6">P6</p>
+
+                <a class="highlight" href="https://www.iesgrancapitan.org/" target="_blank">IES Gran Capit&aacute;n</a>
+                
+            </section>
+        </main>
+    </body>
+</html>
